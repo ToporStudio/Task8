@@ -1,0 +1,111 @@
+#titleimage {
+  height: 100px;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+}
+
+.wrapper {
+  
+  
+  max-width: 1500px;
+  font-size: xx-large;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav {
+  border-radius: 20px;
+  font-size: xx-large;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button {
+  margin: 0px 0px 0px 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 30px;
+}
+
+a.link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: white;
+}
+
+#tovdiv {
+  display: flex;
+  /* 
+  font-size: larger; 
+  font-style: oblique;
+  font-weight: 1000;
+  */
+  flex-wrap: wrap;
+}
+.tovarclass {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.tovarclass p {
+  align-self: center;
+}
+.TovTitleClass {
+  font-style: oblique;
+  font-size: xx-large;
+}
+
+.TovPriceClass {
+  font-size: x-large;
+}
+
+.TovButtonClass {
+  background-color: blueviolet;
+  font-style: oblique;
+  display: none;
+  border-radius: 30px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tovarclass:hover .TovButtonClass {
+  display: block;
+}
+
+.TovImageClass {
+  width: 300;
+}
+
+#divCart {
+  display: flex;
+  align-items: center;
+}
+
+#inCartInd {
+  background-color: blueviolet;
+  border-radius: 15px;
+}
